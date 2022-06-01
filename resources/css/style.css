@@ -227,4 +227,26 @@ body {
     .logo img{
         width: 200px;
     }
+
+    .parallax {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        background-image: url("../img/10.jpg");
+        height: 500px;
+        background-attachment: local;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallax-2 {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        background-image: url("../img/9.jpg");
+        height: 500px;
+        background-attachment: local;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 } 
