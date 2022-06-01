@@ -1,0 +1,230 @@
+@font-face {
+    font-family: HelveticaThin;
+    src: url(../fonts/HelveticaThin.ttf);
+}
+
+@font-face {
+    font-family: HelveticaThinBolder;
+    src: url(../fonts/HelveticaThinBolder.otf);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: HelveticaThin !important;
+    overflow-x: hidden;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo{
+  position: absolute;
+  transform: translateY(-50%);
+  top:50%;
+  left:0;
+  right:0;
+  width:500px;
+  margin: auto;
+}
+
+.logo img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+}
+
+#contact{
+    position: absolute;
+    bottom: 10%;
+    opacity: 0.75;
+    background-color:black;
+    width:82%;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#contact a{
+    color: #ffffe5;
+}
+
+#contact .nav-item{
+    padding: 12px;
+}
+
+#contact:hover{
+    opacity:1;
+    transition: 0.5s;
+}
+
+.nav-item:hover{
+    background-color: #ffffe5;
+    color: #764318 !important;
+    border-radius: 10px !important;
+    transition: 0.5s;
+}
+
+body {
+    background-color: #cc900d !important;
+    background-image: linear-gradient(#b26f13,
+    #ca9103);
+    /* background-size: 100px 100px;  */
+}
+
+#visit-card{
+
+    background-color: #764318;
+    background-image: linear-gradient(90deg, transparent 50%,
+    #ffffe5 50%);
+    background-size: 100px 100px; 
+    text-align: center;
+}
+
+#visit-card iframe {
+    margin: 5em 0 5em 0 !important;
+    width: 80vw !important;
+    margin: auto;
+}
+
+.underlined {
+    color: #ffffff;
+}
+
+#footer {
+    background-color: black;
+    color: #ffffe5;
+    display: flex;           /* establish flex container */
+    flex-direction: row;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    text-align: center;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 2px !important;
+}
+
+#footer li {
+    float: left;
+    margin: auto;
+    padding: 10px;
+}
+
+#about-us {
+    padding: 5vh; 
+    color: white;
+    margin:auto;
+    text-align: center;
+}
+
+#menus {
+    text-align: center;
+}
+
+.opacity-reduced {
+    width: 85vw;
+    opacity: 0.8;
+    background-color:black;
+    text-align: center;
+    margin: auto;
+}
+
+.parallax {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    background-image: url("../img/10.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    background-image: url("../img/9.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-deck {
+    width: 90vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin: auto !important;
+}
+
+.card{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.card iframe{
+    width: 100%;
+}
+
+#locations {
+    text-align: center;
+    margin: auto;
+}
+
+#top-btn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #cc900d; /* Set a background color */
+    color: #ffffe5 !important; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 8px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 15px; /* Increase font size */
+}
+
+.menu{
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+    .menus {
+        width: 100vw;
+        height: 100%;
+    }
+
+    .logo{
+        position: absolute;
+        transform: translateY(-50%);
+        top:10%;
+        left:0;
+        right:0;
+        width:200px;
+        margin: auto;
+    }
+
+    .logo img{
+        width: 200px;
+    }
+} 
